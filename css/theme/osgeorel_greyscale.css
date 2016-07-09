@@ -2482,25 +2482,25 @@ h2.shadow {
    font-size: 1.75em;
    font-weight: 600;
    color: #000;
-   text-shadow: 0 0 6px white, 0 0 5px white, 0 0 4px white, 0 0 3px white, 0 0 2px white, 0 0 1px white; }
+   text-shadow: 0 0 5px white, 0 0 4px white, 0 0 3px white, 0 0 2px white, 0 0 1px white, 0 0 1px white; }
 
 h3.shadow {
    font-size: 1.5em;
    font-weight: 500;
    color: #000;
-   text-shadow: 0 0 4px white, 0 0 3px white, 0 0 2px white, 0 0 1px white; }
+   text-shadow: 0 0 3px white, 0 0 2px white, 0 0 1px white, 0 0 1px white; }
 
 h4.shadow {
   font-size: 1.25em;
   font-weight: 400;
   color: #000;
-  text-shadow: 0 0 4px white, 0 0 3px white, 0 0 2px white, 0 0 1px white; }
+  text-shadow: 0 0 2px white, 0 0 2px white, 0 0 1px white, 0 0 1px white; }
 
 h5.shadow {
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 350;
   color: #000;
-  text-shadow: 0 0 3px white, 0 0 2px white, 0 0 1px white, 0 0 1px white; }
+  text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white; }
 
 /*********************************************
  * OTHER
@@ -2512,6 +2512,7 @@ h5.shadow {
 p.shadow {
   margin: 20px 0;
   line-height: 1.3;
+  font-weight: 350;
   color: #000;
   text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white; }}
 
