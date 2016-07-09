@@ -2507,6 +2507,11 @@ h1.inverse {
    font-weight: 700;
    color: white;}
 
+h2.inverse {
+   font-size: 1.75em;
+   font-weight: 600;
+   color: white;}
+
 /*********************************************
  * OTHER
  *********************************************/
