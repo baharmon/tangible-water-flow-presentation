@@ -223,25 +223,67 @@ Your browser does not support the video tag.
 
 <!-- Experiment -->
 
-<!-- Research questions -->
 
+
+<!--
+Theoretically a tangible interface for a GIS that enables intuitive digital sculpting while providing analytical
+feedback should allow users to dynamically explore how topographic form influences landscape processes.
+With a physical model one can
+cognitively grasp topographic form,
+offloading the cognitive work of
+understanding and shaping topographic form onto the body.
+A GIS can offload the cognitive work of simulating complex physical processes
+like the flow of water through computation.
+With these physical and computational affordances combined in a tangible interface for GIS users should be able to more easily understand and shape spatial processes.
+-->
+
+
+<!-- Aim -->
+<section>
+<h2>Research aim</h2>
+<p>How do 3D tangible interfaces for GIS mediate spatial thinking about landscape processes like water flow?</p>
+<img height="400px" src="img/tl_system_logo.png">
+</section>
+
+<!-- Research questions -->
+<section>
+<h2>Research questions</h2>
+<p>
+<ul>
+  <li>Can users offload the cognitive work of understanding and shaping topographic form onto the body?</li>
+  <li>Can users dynamically explore how topographic form influences landscape processes?</li>
+</ul>
+</p>
+<img height="200px" src="img/tl_logo.png">
+</section>
 
 <!-- Design | Methods -->
 
+<!--<section data-background="img/depth_3d.png">-->
+<section>
+<h2>Experiment</h2>
+<img width="50%" src="img/depth_3d.png">
+<p>Participants were asked to sculpt a given landscape in 10 minutes using <b>a)</b> a digital modeling program and then <b>b)</b> Tangible Landscape's water flow analytic</p>
+<p>Their perfomance was assessed using cellular statistics and hydrological simulation</p>
+</section>
+
 <section data-background="img/vue.jpg">
-<h2 class="shadow">Vue</h2>
-<h4 class="shadow">Terrain editor</h4>
-<p>...</p>
+<h1 class="shadow">Vue</h1>
+<h3 class="shadow">Terrain editor</h3>
+<p class="shadow">3D modeling program designed for intuitive terrain sculpting</p>
 </section>
 
 <section data-background="img/tl_water.jpg">
-<h2 class="shadow">Tangible Landscape</h2>
-<h4 class="shadow">Water flow analytic</h4>
-<p>...</p>
+<h1 class="shadow">Tangible Landscape</h1>
+<h3 class="shadow">Water flow analytic</h3>
 </section>
 
 <!-- r.sim.water -->
-
+<section data-background="img/tl_water.png">
+<h2 class="shadow">Water flow simulation</h2>
+<h4 class="shadow">A path sampling technique for solving the shallow water flow continuity equation</h4>
+<p class="shadow">Implemented in GRASS GIS as the module <a href="https://grass.osgeo.org/grass72/manuals/r.sim.water.html">r.sim.water</a></p>
+</section>
 
 <!-- Results -->
 
@@ -288,12 +330,14 @@ Your browser does not support the video tag.
 
 <section>
 <h2>Percent cells with depressions</h2>
+<p>
 <table>
 <tr><th>Exercise</th><th>Cells</th></tr>
 <tr><td>Reference</td><td>0%</td></tr>
 <tr><td>Digital</td><td>44%</td></tr>
 <tr><td>Tangible</td><td>17.66%</td></tr>
 </table>
+</p>
 </section>
 
 <!-- Findings -->
@@ -302,15 +346,11 @@ Your browser does not support the video tag.
 <h4>Tangible modeling</h4>
 <p>
 <ul>
-  <li>Participants typically focused on directing water into streams,
-    but did not tend focus on directing a continuous flow downstream.</li>
-  <li>Participants graded smoother slopes with fewer depressions
-    whose curvature directed water towards channels, concentrating it in streams.
-    They, however, did not tend to grade the channels to continuously slope downstream.</li>
-  <li>While participants performance improved substantially,
-    the pervasive presence of depressions in the stream channels
-    in both exercises demonstrates that participants
-    did not fully understand the morphology of streams by the end of the experiment.</li>
+  <li>The tangibly sculpted models more accurately replicated the flow of water over the study landscape. </li>
+  <li>The digitally sculpted models tended to have more diffuse water flow and more water pooling in depressions</li>
+  <li>The tangibly sculpted models tended to have more flow in stream channels and less pooling in depressions</li>
+  <li>The spatial distribution of water flow on the tangibly sculpted models more closely fit the distribution of water flow on the reference landscape. </li>
+  <li>Most participants did not to clearly understand how topography directs water flow, but began to learn about the importance of curvature and continuity with the aid of the tangible interface. </li>
 </p>
 </section>
 
@@ -329,12 +369,12 @@ We observed participants using an iterative modeling process with the tangible i
 </section>
 
 <!-- Conclusions -->
-<section data-background="img/water_flow.png" data-background-size="cover">
-<h2>Conclusion</h2>
-<p>Seeing the water flow simulation update in near real-time
+<section data-background="img/tl_water.png">
+<h2 class="shadow">Conclusions</h2>
+<h4 class="shadow">Seeing the water flow simulation update in near real-time
 enabled participants to generate hypotheses, test hypotheses, and draw inferences
-about the way that water flows over topography.</p>
-<p>As one participant said, <i>`seeing the flow takes away the mystery of topography.'</i></p>
+about the way that water flows over topography.</h4>
+<h4 class="shadow">As one participant said, <i>`seeing the flow takes away the mystery of topography.'</i></h4>
 </section>
 
 <!-- Open source | open science-->
@@ -343,9 +383,10 @@ about the way that water flows over topography.</p>
 <img width="10%" src="img/Octocat.png">
 <h4 style="margin-top: 1em">Fork us on GitHub</h4>
 <p><a href="https://github.com/baharmon/tangible-water-flow">Repository with experiment instructions, scripts, data, and results</a></p>
-<p><a href="https://github.com/ncsu-osgeorel/grass-tangible-landscape">Tangible Landscape plugin for GRASS GIS</a></p>
-<p><a href="https://github.com/ncsu-osgeorel/r.in.kinect">GRASS GIS module for importing data from Kinect v2</a></p>
-<p><a href="https://osf.io/w8nr6/">Tangible Landscape repository on Open Science Framework</a></p>
+<p><a href="https://osf.io/zv3t6/">Experiment repository on Open Science Framework</a></p>
+<p><a href="https://grass.osgeo.org/">GRASS GIS</a></p>
+<p><a href="https://github.com/tangible-landscape/grass-tangible-landscape">Tangible Landscape plugin for GRASS GIS</a></p>
+<p><a href="https://github.com/tangible-landscape/r.in.kinect">GRASS GIS module for importing data from Kinect v2</a></p>
 </section>
 
 <!-- Future work -->
@@ -360,7 +401,9 @@ about the way that water flows over topography.</p>
 <section>
 <h2>Further reading</h2>
 <img width="20%" src="img/tl_book_cover.png">
-<p>Read our <a href="http://www.springer.com/us/book/9783319257730">book</a> and give it a try</p>
+<p>Read our <a href="http://www.springer.com/us/book/9783319257730">book</a>
+or visit our website at <a href="http://tangible-landscape.github.io/">http://tangible-landscape.github.io/</a>
+and give it a try</p>
 </section>
 <!-- This is a generated file. Do not edit. -->
         </div>  <!-- slides -->
