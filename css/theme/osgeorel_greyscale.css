@@ -2502,6 +2502,16 @@ h5.shadow {
   color: #000;
   text-shadow: 0 0 1px white, 0 0 1px white, 0 0 1px white, 0 0 1px white; }
 
+h1.inverse {
+   font-size: 3em;
+   font-weight: 700;
+   color: white;}
+
+h2.inverse {
+   font-size: 1.75em;
+   font-weight: 600;
+   color: white;}
+
 /*********************************************
  * OTHER
  *********************************************/
